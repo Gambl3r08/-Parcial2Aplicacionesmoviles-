@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Parcial dos Roberto Lozada</string>
+
+    <string name="fecha_de_vencimiento">Fecha de vencimiento</string>
+    <string name="tipo">Tipo</string>
+    <string name="serial">Serial</string>
+    <string name="button">Button</string>
+    <string name="nombre_del_medicamento">Nombre del medicamento</string>
+    <string name="laboratorio">Laboratorio</string>
+    <string name="analg_sico">Analgésico</string>
+    <string name="antibi_tico">Antibiótico</string>
+    <string name="listar_medicamentos">Listar medicamentos</string>
+    <string name="eliminar_medicamento">Eliminar medicamento</string>
+    <string name="actualizar_medicamento">Actualizar medicamento</string>
+    <string name="string_actualizar_medicamento" />
+    <string name="registrar_medicamento">Registrar medicamento</string>
+    <string name="agregar_medicamento">Agregar medicamento</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/txtSalida"
+        android:layout_width="match_parent"
+        android:layout_height="252dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/viewGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/inputSerial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Serial"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/inputNombreMedicamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nombre del medicamento"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/inputLaboratorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Laboratorio"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/inputFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Fecha de vencimiento formato yyyy/mm/dd"
+                android:inputType="date" />
+
+            <RadioGroup
+                android:id="@+id/GrupoTipos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/RadioAnalgesico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Analgésico" />
+
+                <RadioButton
+                    android:id="@+id/RadioAntibiotico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Antibiótico" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnAgregar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agregar_medicamento" />
+
+            <Button
+                android:id="@+id/btnListar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Listar medicamentos" />
+
+            <Button
+                android:id="@+id/btnActualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actualizar medicamento" />
+
+            <Button
+                android:id="@+id/btnEliminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eliminar medicamento" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
